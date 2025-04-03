@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.schedule-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.schedule-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.schedule-form input,
+.schedule-form textarea,
+.schedule-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.schedule-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.schedule-form button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.schedule-form button:hover {
+  background-color: #45a049;
+}
+
+.schedule-list {
+  margin-top: 30px;
+}
+
+.schedules {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.schedule-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.schedule-card p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.schedule-card button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.schedule-card button:hover {
+  background-color: #d32f2f;
+} 
